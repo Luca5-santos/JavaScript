@@ -1,0 +1,23 @@
+div.quadrado{
+	width: 200px;
+	height:150px;
+	border: 2px solid black;
+	margin: 5px;
+	display:inline-block;
+}
+section {
+	margin: auto;
+	width: 1000px;
+	height: 300px;
+}
+div.quadro_01{
+	background-color:red;
+	box-shadow: 5px 5px 5px black;
+}
+div.quadro_02{
+	background-image:linear-gradient(to bottom, pink, purple);
+}
+div.quadro_03{
+	background-image:url(navegadores.png);
+	box-shadow: 10px 20px 20px rgba(0,0,0,0.4);
+}

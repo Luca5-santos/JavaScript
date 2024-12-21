@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>compras</title>
+		<link rel="stylesheet" href="style.css">
+		<script src = "script.js"></script
+	<head>
+	<body>
+	<h1>Pagina de compras</h1>
+		<form id = "form1">
+			<input type = "text" id = "produto_nome" />
+			<label for = "produto_nome">Produto</label>
+			<label for = "produto_valor"> Valor </label>
+			<input type = "text" id = "produto_valor"/>
+			<label for = "produto_quantidade"> Quantidade</label>
+			<input type = "text" id = "produto_quantidade" />
+			<input type = "button" id = "btn_enviar" value = "Adicionar Produtos" onclick = "adicionarProduto()">
+		</form>
+		<table>
+			<caption>Tabela de Produtos</caption>
+			<thead>
+				<tr>
+					<th>Produto</th>
+					<th>Valor</th>
+					<th>Quantidade</th>
+					<th>Valor de Venda</th>
+				</tr>
+			</thead>
+			<tbody id = "tabela_produtos">
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<th id = "valor_total"><span>Total: R$ </span>0,00<th>
+				</tr>
+			</tfoot>
+		</table>
+		<input type ="button" id = "salvar" name = "salvar" value = "Salvar Produtos" >
+	</body>
+</html>

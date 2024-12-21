@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>pseudos</title>
+		<style>
+			a:link{
+				color:red;
+			}
+			a:visited{
+				color:green;
+			}
+			a:hover{
+				color:hotpink;
+			}
+			a:active{
+				color:blue;
+			}
+			a.aumenta_letra:hover{
+				color: #ff0000;
+				font-size: 22px;
+			}
+			.esconder{
+				display:none;
+				background-color:yellow;
+				padding:20px;
+			}
+			div.aparecer:hover p{
+				display:block;
+			}
+			
+		</style>
+	<head>
+	<body>
+	<fieldset>
+		<h2>Estilizando link conforme o estado</h2>
+		<p><b><a href="#" target="_blanck">Esse é um link</a></b></p>
+		<p><b><a href="#" target="_blanck">Esse é um link</a></b></p>
+		<p>
+			<b>Nota:</b>
+			a:houver DEVE vir após um a:link e um a:visited na definição CSS para ser eficaz
+		</p>
+		<p>
+			<b>Nota:</b>
+			a:active DEVE vir após a:houver na definição CSS para ser eficaz
+		</p>
+	</fieldset>
+	<fieldset>
+		<h2>Pseudo-classes and HTML Classes</h2>
+		<p>
+			Qaundo você passar o mouse sobre o primeiro link abaixo, ele mudará a cor e o tamanho da fonte:
+		</p>
+		
+		<p><a class="aumenta_letra" href="#">Aumenta este texto</a></p>
+		<p><a href="#">CSS Tutorial</a></p>
+	</fieldset>
+	<fieldset>
+		<div class="aparecer">Passando o mouse neste element div irá mostrar o elemento p
+		<p class ="esconder">Olá!!Eu estou aqui!</p>
+		</div>
+	</fieldset>
+	</body>
+</html>

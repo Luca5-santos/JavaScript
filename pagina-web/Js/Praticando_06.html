@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Fluxograma</title>
+	<head>
+	<body>
+		<script>
+			let notaFinal = prompt ("Digite seu Nota Final:")
+			let qtdFaltas = prompt ("Digite o seu numero de faltas:")
+			let cargaHoraria = prompt ("Digite sua carga horaria:")
+			let limiteFaltas = (cargaHoraria * 0.25)
+			
+			if (notaFinal >= 50 && qtdFaltas <= limiteFaltas){
+				alert("Aluno está certificado")
+			}
+			else{
+				alert("Aluno não foi certificado")
+			}
+			
+		</script>
+		
+	</body>
+</html> 

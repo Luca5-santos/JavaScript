@@ -1,0 +1,10 @@
+body{
+	text-align:center;
+	width: 20%;
+	display:flex;
+}
+
+fieldset {
+	margin:auto;
+	padding: 5px;
+}

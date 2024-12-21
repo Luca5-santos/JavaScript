@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset = "UTF-8">
+			<link rel="stylesheet" href="style.css">
+		</head>
+		<body>
+			<form>
+				<h3>Input com type=date</h3>
+				<p>
+					<fieldset>
+						<label for = "data_aniversario"> Qual sua data de nascimento: </label></br>
+						<Input type = "date" id = "data_aniversario" name = "data_aniversario" />
+					</fieldset>
+				</p>
+				<hr>
+				<p>
+					<fieldset>
+						<label for = "cor_favorita"> Selecione a sua cor favorita:</label></br>
+						<Input type = "color" id = "cor_favorita" name = "cor_favorita" />
+					</fieldset>
+				</p>
+				<hr>
+				<p>
+					<fieldset>
+						<label for = "aniversario_hora"> Birthday (data e hora) </label></br>
+						<Input type = "datetime-local" id = "aniversario_hora" name = "aniversario_hora" />
+					</fieldset>
+				</p>
+				<hr>
+				<p>
+					<fieldset>
+						<label for = "email_pessoal"> Digite seu email: </label></br>
+						<Input type = "email" id = "email_pessoal" name = "email_pessoal" />
+					</fieldset>
+				</p>
+				<hr>
+				<p>
+					<fieldset>
+						<label for = "meu_arquivo"> Selecione um arquivo </label></br>
+						<Input type = "file" name = "meu_arquivo" />
+					</fieldset>
+				</p>
+				<hr>
+				<p>
+					<fieldset>
+						<label for = "nome_pessoa"> Nome: </label></br>
+						<Input type = "text" id = "nome_pessoa" name = "nome_pessoa" />
+						<input type = "hidden" name = "custo" value = "1000" />
+						<Input type = "submit" value = "ENVIAR" />
+					</fieldset>
+				</p>
+				<hr>
+				<p>
+					<fieldset>
+						<label for = "quantidade"> Quantidade (Entre 1 e 5): </label></br>
+						<Input type = "number" id = "quantidade" name = "quantidade" min = "1" max = "5" required />
+					</fieldset>
+				</p>
+				<hr>
+				<p>
+					<fieldset>
+						<label for = "qte"> Quantidade: </label></br>
+						<Input type = "number" id = "qte" name = "qte" min = "0" max = "100" step = "10" value = "30" />
+					</fieldset>
+				</p>
+				<hr>
+				<p>
+					<label for ="mensagem"> Digite sua mensagem:</label>
+					</br>
+					<textarea id = "mensagem" name = "mensagem" rows = "10">
+					</textarea>
+				</p>
+				<hr>
+			</form>
+		</body>
+	</html>

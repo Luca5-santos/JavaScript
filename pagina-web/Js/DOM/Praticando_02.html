@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DOM</title>
+		<meta charset="utf-8">
+		<script>
+			function pegarElementosPelaTagName(){
+				var elementos = document.getElementsByTagName("input")
+				alert(elementos)
+				alert(elementos[0].innerHTML)
+				alert(elementos[1].value)
+				alert(elementos[2].type)
+				console.log(elementos)
+				console.log(elementos[0].innerHTML)
+				console.log(elementos[1].value)
+				console.log(elementos[2].type)
+			}
+		</script>	
+	</head>
+	<body>
+		<h1>DOM</h1>
+		<h4>Exemplo 18 - Pegando elementos com getElementsByTagName</h4>
+	<form>
+		<label for = "nome">Nome</label></br>
+		<input type = "text" id = "nome" value = "SENAI" ></br>
+		<label for = "email">Email:</label></br>
+		<input type = "text" id = "email" value = "senai@sp.senai.br">
+		<input type = "button" value = "OK" onclick = "pegarElementosPelaTagName()">
+	</form>
+	</body>
+</html>

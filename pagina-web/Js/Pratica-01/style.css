@@ -1,0 +1,46 @@
+body{
+	background-color:LightSteelBlue;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	width:60%;
+	margin:auto;
+	background-color:white;
+	margin-top:60px;
+	padding:50px;
+	border: solid 1px;
+	border-radius:5px;
+}
+table{
+	width: 80%;
+	margin:auto;
+	background-color:white;
+	margin-top: 10px;
+	padding: 10px;
+	border: solid 1px;
+	border-radius: 5px;
+}
+#salvar{
+	display:flex;
+	flex-direction:column;
+	width: 20%;
+	margin:auto;
+	margin-top:10px;
+}
+#btn_enviar{
+	width:30%;
+	display:flex;
+	margin:auto;
+}
+th, td{
+	border: 1px solido white;
+	border-collapse: collapse;
+	text-align:center;
+	background-color: gray;
+}
+
+h1{
+	text-align:center;
+	color:white;
+}

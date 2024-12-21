@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset = "UTF-8">
+			<title>Enviando Dados</title>
+		</head>
+		<body>
+			<h1>HTML Forms</h1>
+			<h3>Enviando os dados do fomrulário</h3>
+			<h3>action="dados_recebidos.html"</h3>
+			<h3>method="get" ou "post"</h3>
+			<form action="dados_recebidos.html" method = "get">
+				<p><label for = "nome"> Primeiro nome: </label></p>
+				<p><input type = "text" id = "nome" name = "nome" placeholder = "Digite seu nome:" required /></p>	
+				<p>	<label for = "sobrenome">Sobrenome:</label></p>
+				<p>	<input type = "text" id = "sobrenome" name = "sobrenome" placeholder = "Digite seu Sobrenome:"/></p>	
+				<p><label for = "senha">Senha:</label></p>
+				<p><input type = "password" id = "senha" name = "senha" min = "3" required /></p>
+				<input type = "submit" value = "ENVIAR"/>
+				<input type = "reset" value = "Apaga todos os dados"/>
+			</form>
+		</body>
+	</html>

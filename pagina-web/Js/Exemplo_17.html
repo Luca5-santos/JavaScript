@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DOM</title>
+		<meta charset="utf-8">
+		<script>
+			function pegarElementosPelaClasse(){
+				var itens = document.getElementsByClassName("cor_nao")
+				alert(itens)
+				alert(itens[0].innerHTML)
+				alert(itens[1])
+				console.log(itens)
+				console.log(itens[0].innerHTML)
+				console.log(itens[1])
+			}
+		</script>	
+	</head>
+	<body>
+	<h1>DOM</h1>
+	<h4>Exemplo 17 - Pegando valores com getElementById</h4>
+	<ul>
+		<li class = "cor_sim">Item 01</li>
+		<li class = "cor_nao">Item 02</li>
+		<li class = "cor_sim">Item 03</li>
+		<li class = "cor_nao">Item 04</li>
+	</ul></br></br>
+	<input type = "button" value = "OK" onclick = "pegarElementosPelaClasse()">
+	</body>
+</html>
