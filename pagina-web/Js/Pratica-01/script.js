@@ -22,6 +22,7 @@ function adicionarProduto(){
 	document.getElementById("produto_nome").value = "";
     document.getElementById("produto_valor").value = "";
     document.getElementById("produto_quantidade").value = "";
+	
 }
 
 	
